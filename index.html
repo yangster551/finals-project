@@ -6,14 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <script scr="script.js"></script>
 </head>
 
 <body>
-    <h1>Click
-        <a href="https://www.youtube.com/watch?v=obmlZH3X9gs">
-            <h2>Here</h2>
-        </a>
-    </h1>
+    <a class="button-four" onclick="myFunction()" title="tt" href="#">Click Me</a>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "did you really think that would work";
+        }
+    </script>
+
+
 
     <a href="https://www.youtube.com/watch?v=D-UmfqFjpl0">
         <button>don't press this</button>
